@@ -122,9 +122,9 @@
 // |      |      |      |      |      |      |   |  BTN4 | LMB   | MCLK  | RMB   | BTN5 |      |
 //                      |      |      |      |   |  LMB | MIDDLE| RMB  |
                         bindings = <
-   &trans   &trans   &trans   &trans   &trans   &trans       &mwh SCROLL_UP    &mwh SCROLL_LEFT &mmv MOVE_UP   &mwh SCROLL_RIGHT &mkp BTN7     &trans
-   &trans   &trans   &trans   &trans   &trans   &trans       &mwh SCROLL_DOWN  &mmv MOVE_LEFT   &mmv MOVE_DOWN &mmv MOVE_RIGHT   &mkp BTN6     &trans        
-   &trans   &trans   &trans   &trans   &trans   &trans       &mkp BTN4         &mkp LCLK        &mkp MCLK      &mkp RCLK         &mkp BTN5     &trans
+   &trans   &trans   &trans   &trans   &trans   &trans       &msc SCRL_UP    &msc SCRL_LEFT &mmv MOVE_UP   &msc SCRL_RIGHT &mkp &trans     &trans
+   &trans   &trans   &trans   &trans   &trans   &trans       &msc SCRL_DOWN  &mmv MOVE_LEFT   &mmv MOVE_DOWN &mmv MOVE_RIGHT    &trans     &trans        
+   &trans   &trans   &trans   &trans   &trans   &trans       &mkp BTN4         &mkp LCLK        &mkp MCLK      &mkp RCLK        &mkp BTN5  &trans
                                 &trans     &trans     &trans       &mkp LCLK &mkp MCLK &mkp RCLK
                         >;
                 };
