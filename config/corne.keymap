@@ -25,15 +25,15 @@
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
-//        th: thumb_hold_tap {
-//            compatible = "zmk,behavior-hold-tap";
-//            label = "THUMB_HOLD_TAP";
-//            #binding-cells = <2>;
-//            tapping-term-ms = <200>;
-//            quick-tap-ms = <125>;
-//            flavor = "balanced";
-//            bindings = <&mo>, <&kp>;
-//        };
+        th: thumb_hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "THUMB_HOLD_TAP";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <125>;
+            flavor = "balanced";
+            bindings = <&mo>, <&kp>;
+        };
     };
 
     keymap {
@@ -45,18 +45,18 @@
 /* home  */ &trans &hm LCTRL N &hm LALT R &hm LSHFT T &hm LCMD S &kp G     &kp P    &hm LCMD H &hm LSHFT A &hm LALT E &hm LCTRL I &trans
 /* bottom*/ &trans &kp X    &kp Q    &kp M    &kp W    &kp Z        &kp K    &kp F    &kp SEMI &kp DOT  &kp SQT   &trans
 //                        &th 1 ESC  &th 3 SPACE &th 5 TAB   &th 6 RET   &th 2 BSPC &th 4 DEL
-                        &kp ESC  &kp SPACE &kp TAB   &kp RET   &kp BSPC &kp DEL
+                        &th 1 ESC  &kp SPACE &kp TAB   &kp RET   &kp BSPC &kp DEL
             >;
         };
 
-//        nav_layer {
-//            bindings = <
-//&trans &trans &trans &trans &trans &trans    &kp PG_UP  &kp HOME  &kp UP    &kp END    &trans &trans
-//&trans &trans &trans &trans &trans &trans    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans &trans
-//&trans &kp LGUI Z &kp LGUI X &kp LGUI C &kp LGUI V &trans   &kp LGUI Z &kp LGUI X &kp LGUI C &kp LGUI V &trans &trans
-//                        &trans &trans &trans    &trans &trans &trans
-//            >;
-//        };
+        nav_layer {
+            bindings = <
+&trans &trans &trans &trans &trans &trans    &kp PG_UP  &kp HOME  &kp UP    &kp END    &trans &trans
+&trans &trans &trans &trans &trans &trans    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans &trans
+&trans &kp LGUI Z &kp LGUI X &kp LGUI C &kp LGUI V &trans   &kp LGUI Z &kp LGUI X &kp LGUI C &kp LGUI V &trans &trans
+                        &trans &trans &trans    &trans &trans &trans
+            >;
+        };
 //
 //        symbol_layer {
 //            bindings = <
