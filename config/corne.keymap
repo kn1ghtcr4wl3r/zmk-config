@@ -49,24 +49,24 @@
             >;
         };
 
-        nav_layer {
-            bindings = <
-&trans &trans &trans &trans &trans &trans    &kp PG_UP  &kp HOME  &kp UP    &kp END    &trans &trans
-&trans &trans &trans &trans &trans &trans    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans &trans
-&trans &kp LGUI Z &kp LGUI X &kp LGUI C &kp LGUI V &trans   &kp LGUI Z &kp LGUI X &kp LGUI C &kp LGUI V &trans &trans
-                        &trans &trans &trans    &trans &trans &trans
-            >;
-        };
-//
-//        symbol_layer {
+//        nav_layer {
 //            bindings = <
-//&trans &kp GRAVE &kp EXCL  &kp AT    &kp LBKT  &kp RBKT      &kp DQT   &kp PIPE  &kp LT    &kp GT    &kp MINUS &trans
-//&trans &kp TILDE &kp HASH  &kp DLLR  &kp LPAR  &kp RPAR      &kp COLON &kp FSLH  &kp EQUAL &kp PLUS  &kp UNDER &trans
-//&trans &kp BSLH  &kp PRCNT &kp CARET &kp LBRC  &kp RBRC      &kp ASTRK &trans    &trans    &trans    &trans    &trans
-//                        &kp QMARK &kp AMPS &kp PIPE   &trans &trans &trans
+//&trans &trans &trans &trans &trans &trans    &kp PG_UP  &kp HOME  &kp UP    &kp END    &trans &trans
+//&trans &trans &trans &trans &trans &trans    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans &trans
+//&trans &kp LGUI Z &kp LGUI X &kp LGUI C &kp LGUI V &trans   &kp LGUI Z &kp LGUI X &kp LGUI C &kp LGUI V &trans &trans
+//                        &trans &trans &trans    &trans &trans &trans
 //            >;
 //        };
 //
+        symbol_layer {
+            bindings = <
+&trans &kp GRAVE &kp EXCL  &kp AT    &kp LBKT  &kp RBKT      &kp DQT   &kp PIPE  &kp LT    &kp GT    &kp MINUS &trans
+&trans &kp TILDE &kp HASH  &kp DLLR  &kp LPAR  &kp RPAR      &kp COLON &kp FSLH  &kp EQUAL &kp PLUS  &kp UNDER &trans
+&trans &kp BSLH  &kp PRCNT &kp CARET &kp LBRC  &kp RBRC      &kp ASTRK &trans    &trans    &trans    &trans    &trans
+                        &kp QMARK &kp AMPS &kp PIPE   &trans &trans &trans
+            >;
+        };
+
 //        numpad_layer {
 //            bindings = <
 //&trans &trans &trans &trans &trans &trans    &kp N7 &kp N8 &kp N9 &kp EQUAL &kp DEL   &trans
