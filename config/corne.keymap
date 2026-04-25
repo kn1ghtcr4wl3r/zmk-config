@@ -54,7 +54,7 @@
 /* home  */ &trans &hm LCTRL N &hm LALT R &hm LSHFT T &hm LCMD S &kp G     &kp P    &hm LCMD H &hm LSHFT A &hm LALT E &hm LCTRL I &trans
 /* bottom*/ &trans &kp X    &kp Q    &kp M    &kp W    &kp Z        &kp K    &kp F    &kp SEMI &kp DOT  &kp SQT   &trans
 //                        &th 1 ESC  &th 3 SPACE &th 5 TAB   &th 6 RET   &th 2 BSPC &th 4 DEL
-                        &th 1 ESC  &th 3 SPACE &kp TAB   &kp RET   &th 2 BSPC &kp 4 DEL
+                        &th 1 ESC  &th 3 SPACE &kp TAB   &kp RET   &th 2 BSPC &th 4 DEL
             >;
         };
 
