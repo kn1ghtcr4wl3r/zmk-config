@@ -45,7 +45,7 @@
 /* home  */ &trans &hm LCTRL N &hm LALT R &hm LSHFT T &hm LCMD S &kp G     &kp P    &hm LCMD H &hm LSHFT A &hm LALT E &hm LCTRL I &trans
 /* bottom*/ &trans &kp X    &kp Q    &kp M    &kp W    &kp Z        &kp K    &kp F    &kp SEMI &kp DOT  &kp SQT   &trans
 //                        &th 1 ESC  &th 3 SPACE &th 5 TAB   &th 6 RET   &th 2 BSPC &th 4 DEL
-                        &th 1 ESC  &kp SPACE &kp TAB   &kp RET   &th 2 BSPC &kp DEL
+                        &th 1 ESC  &th 3 SPACE &kp TAB   &kp RET   &th 2 BSPC &kp DEL
             >;
         };
 
@@ -76,15 +76,15 @@
             >;
         };
 
-//        function_layer {
-//            bindings = <
-//&trans &kp F9 &kp F10 &kp F11 &kp F12 &trans    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans
-//&trans &kp F5 &kp F6  &kp F7  &kp F8  &trans    &trans       &trans       &trans       &trans       &trans       &trans
-//&trans &kp F1 &kp F2  &kp F3  &kp F4  &trans    &trans       &trans       &trans       &trans       &trans       &trans
-//                        &trans &trans &trans    &trans &trans &bt BT_CLR
-//            >;
-//        };
-//
+        function_layer {
+            bindings = <
+&trans &kp F9 &kp F10 &kp F11 &kp F12 &trans    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans
+&trans &kp F5 &kp F6  &kp F7  &kp F8  &trans    &trans       &trans       &trans       &trans       &trans       &trans
+&trans &kp F1 &kp F2  &kp F3  &kp F4  &trans    &trans       &trans       &trans       &trans       &trans       &trans
+                        &trans &trans &trans    &trans &trans &bt BT_CLR
+            >;
+        };
+
 //        mouse_layer {
 //            bindings = <
 //&trans &trans &trans &trans &trans &trans    &msc SCRL_UP   &msc SCRL_LEFT &mmv MOVE_UP   &msc SCRL_RIGHT &trans &trans
