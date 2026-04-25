@@ -43,6 +43,24 @@
                 #binding-cells = <0>;
                 bindings = <&kp LCMD &kp Z>;
         };
+        cut: cut {
+                compatible ="zmk,behavior-macro";
+                label = "CUT";
+                #binding-cells = <0>;
+                bindings = <&kp LCMD &kp X>;
+        };
+        copy: copy {
+                compatible ="zmk,behavior-macro";
+                label = "COPY";
+                #binding-cells = <0>;
+                bindings = <&kp LCMD &kp C>;
+        };
+        paste: paste {
+                compatible ="zmk,behavior-macro";
+                label = "PASTE";
+                #binding-cells = <0>;
+                bindings = <&kp LCMD &kp V>;
+        };
     };
 
     keymap {
@@ -62,7 +80,7 @@
             bindings = <
 &trans &trans &trans &trans &trans &trans    &kp PG_UP  &kp HOME  &kp UP    &kp END    &trans &trans
 &trans &trans &trans &trans &trans &trans    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans &trans
-&trans &undo &undo &undo &undo &trans   &undo &undo &undo &undo &trans &trans
+&trans &undo  &cut   &copy  &paste &trans    &undo      &cut      &copy     &paste     &trans &trans
                         &trans &trans &trans    &trans &trans &trans
             >;
         };
